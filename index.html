@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escapade Music Festival</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-wrapper">
+        <a href="#landing"
+          ><img
+            id="header-img"
+            src="./assets/escapade-logo-text (250 × 50 px).png"
+        /></a>
+        <nav id="nav-bar">
+          <ul id="nav-list">
+            <li class="nav-link"><a href="#landing">Home</a></li>
+            <li class="nav-link"><a href="#tickets">Tickets</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="landing">
+      <img
+        id="logo-large"
+        src="https://escapademf.com/wp-content/uploads/2022/11/Logo-EMF.png"
+        alt=""
+      />
+      <img
+        id="landing-gif"
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHdxbmIzYnVsb3ZkdXh6Z2U0OTJyNTIxcXN3a3lzNm5zY2RpaXNqdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKVvzJquWNsL5Go/giphy.gif"
+        alt=""
+      />
+    </section>
+    <section id="tickets">
+      <h1 class="title">Festival Passes</h1>
+      <div class="tickets__wrapper">
+        <div class="admission--container">
+          <h2>General</h2>
+          <button class="tickets__button">get yours</button>
+          <p class="bold">What's Included?</p>
+          <!-- <p>Official Escapade bracelet</p> -->
+          <!-- <p>3 day access to festival grounds</p> -->
+          <h1>$329</h1>
+          <span class="line-height">
+            <p>+ all applicable fees</p>
+            <p>+ shipping per order</p>
+          </span>
+        </div>
+        <div class="admission--container">
+          <h2>VIP</h2>
+          <button class="tickets__button">get yours</button>
+          <p class="bold">What's Included?</p>
+          <!-- <p>Official VIP Escapade bracelet</p>
+          <p>3 day access to festival grounds</p>
+          <p>Fast lane entry</p>
+          <p>VIP section with unobstructed view of stages</p>
+          <p>VIP bar</p>
+          <p>VIP washrooms</p> -->
+          <h1>$419</h1>
+          <span class="line-height">
+            <p>+ all applicable fees</p>
+            <p>+ shipping per order</p>
+          </span>
+        </div>
+        <div class="admission--container">
+          <h2>Elite</h2>
+          <button class="tickets__button elite">get yours</button>
+          <p class="bold">What's Included?</p>
+          <!-- <p>Official Elite Escapade bracelet</p>
+          <p>3 day access to festival grounds</p>
+          <p>All VIP perks</p>
+          <p>Backstage access (meet the DJ's)</p> -->
+          <h1>$849</h1>
+          <span class="line-height">
+            <p>+ all applicable fees</p>
+            <p>+ shipping per order</p>
+          </span>
+        </div>
+      </div>
+    </section>
+    <section id="lineup">
+      <h1 class="title">Lineup</h1>
+      <img class="lineup-img" src="./assets/EMF-LINEUP-2023.png" alt="" />
+    </section>
+    <section id="newsletter">
+      <div class="newsletter-wrapper">
+        <div class="newsletter-text">
+          <h1>Be the first to know...</h1>
+          <p>
+            Stay in the loop! Subscribe to our newsetter for the latest updates
+            on upcoming announcements, lineup details, festival dates, and much
+            more.
+          </p>
+        </div>
+        <div class="newsletter-form">
+          <form id="form" onsubmit="contact(event)">
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <input id="submit" type="submit" value="subscribe" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <img class="footer-img" src="./assets/escapade-logo-text (250 × 50 px).png" alt="">
+      <ul>
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p>Copyright &copy Escapade 2023</p>
+    </footer>
+  </body>
+</html>
